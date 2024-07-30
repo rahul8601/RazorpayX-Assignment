@@ -1,6 +1,5 @@
 import React from 'react'
 
-import RazorPayx from '../../icons/razorpay-icon.png'
 import { FiHome } from "react-icons/fi";
 import { GoArrowUpRight } from "react-icons/go";
 import { FiFileText } from "react-icons/fi";
