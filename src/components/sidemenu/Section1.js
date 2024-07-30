@@ -34,10 +34,11 @@ const Section1 = () => {
     
   return (
     <div>
-       <div className="h-[40px] mb-8 flex items-center">
-         <img src={"https://razorpay-copy.netlify.app/assets/razorpayX-07d036c8.svg"} className='w-36 px-[12px]' />
+       <div className="h-[40px] my-[10px]flex items-center">
+          
+         <img src={"https://razorpay-copy.netlify.app/assets/razorpayX-07d036c8.svg"} className='w-36 px-[12px] py-[14px] ' />
          </div>
-         <div> 
+         <div className='pt-[10px]'> 
           {data.map((e, i) => <Section1Items item={e} key={i}/>)}
          </div>
 

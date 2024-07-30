@@ -47,7 +47,7 @@ const Section2 = () => {
     <div>
     
          <div> 
-          {data.map((e) => <div className='flex items-center justify-start gap-[10px] group py-[8px] px-[12px] my-[10px] hover:bg-[#414a50be] hover:border-l-4   hover:border-[#61cea6] hover:rounded cursor-pointer' >
+          {data.map((e, i) => <div key={i} className='flex items-center justify-start gap-[10px] group py-[8px] px-[12px] my-[10px] hover:bg-[#414a50be] hover:border-l-4   hover:border-[#61cea6] hover:rounded cursor-pointer' >
             <span className='text-[#999fad] text-[12px] font-light group-hover:text-white'>{e.icon}</span>
             <p className='text-[#999fad] text-[12px] font-light group-hover:text-white'>{e.name}</p>
             {e.new}

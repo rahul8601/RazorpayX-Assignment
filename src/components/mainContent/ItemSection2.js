@@ -35,7 +35,7 @@ const ItemSection2 = () => {
          </div>
          <div className='flex items-center flex-end text-white w-[220px]'>
              <span className='  w-[25px] h-[25px] m-1 p-[2px]'><img src='https://d6xcmfyh68wv8.cloudfront.net/assets/x/payroll/logos/x-logo.svg'/></span>
-             <p className='text-[#999fad] text-[11px] flex items-end'><span className='pb-[4px]'><LiaRupeeSignSolid/></span><span className='text-white text-[13px] pb-[1px] relative top-[1px]'>300</span> <span className='pb-[1px]'>00 credited into the account</span></p>
+             <p className='text-[#999fad] text-[11px] flex items-end'><span className='pb-[5px]'><LiaRupeeSignSolid/></span><span className='text-white text-[13px] pb-[1px] relative top-[1px] varela-round-regular'>300</span> <span className='pb-[1px] varela-round-regular'>00 credited into the account</span></p>
          </div>
         </div>
 
@@ -46,7 +46,7 @@ const ItemSection2 = () => {
          </div>
          <div className='flex items-center text-white w-[250px]'>
              <span className=' w-[25px] h-[25px] m-1 p-[2px]'><img src='https://d6xcmfyh68wv8.cloudfront.net/assets/x/payroll/logos/x-logo.svg'/></span>
-             <p className='text-[#999fad] flex items-center justify-center'><span className='text-white text-[13px] mr-[2px] relative top-[1px]'>1</span> <span className='text-[11px] pt-[4px]'>payout worth </span><span className='text-[11px] pt-[6px] relative top-[-1px]'><LiaRupeeSignSolid/></span> <span className='text-[13px] text-white relative top-[1px]'>2,36695</span><span className='text-[11px] pt-[4px]'>.00 created</span></p>
+             <p className='text-[#999fad] flex items-center justify-center'><span className='text-white text-[13px] mr-[2px] relative top-[1px]'>1</span> <span className='text-[11px] pt-[4px]'>payout worth </span><span className='text-[11px] pt-[6px] relative top-[-1px]'><LiaRupeeSignSolid/></span> <span className='text-[13px] text-white relative top-[2px] varela-round-regular'>2,36695</span><span className='text-[11px] pt-[6px] varela-round-regular'>.00 created</span></p>
          </div>
         </div>
 

@@ -8,17 +8,17 @@ const Card1 = () => {
 
     <div className='flex items-center'>
     <div className='  w-[20px] h-[10px] m-1 p-[2px]'><img src='https://d6xcmfyh68wv8.cloudfront.net/assets/x/payroll/logos/x-logo.svg'/></div>
-    <div className='flex items-center relative top-[4px]'><span className='text-[11px] text-[#999fad]'>RazorpayX Lite</span> <span className='text-[10px] px-[5px] text-[#999fad] '>as of a few second ago </span> <span className='text-[12px] text-[#999fad]'><BsArrowRepeat/></span></div>
+    <div className='flex items-center relative top-[4px]'><span className='text-[11px] text-[#999fad]'>RazorpayX Lite</span> <span className='text-[10px] px-[5px] text-[#878a91] '>as of a few second ago </span> <span className='text-[12px] text-[#999fad]'><BsArrowRepeat/></span></div>
     </div>
 
     <div className='flex items-center h-[40px] '>
-       <div className=' flex items-center  w-[240px]'>
-        <div className='text-[11px] text-[#999fad] relative top-[2px]'><LiaRupeeSignSolid/></div>
-        <span  className='text-white text-[20px] font-bold'>100</span>
-        <span className='text-[11px] text-[#999fad] relative top-[2px]'>.09</span>
+       <div className=' flex items-center  w-[240px] varela-round-regular'>
+        <div className='text-[13px] text-[#999fad] relative top-[1px]'><LiaRupeeSignSolid/></div>
+        <span  className='text-white text-[20px]  '>100</span>
+        <span className='text-[11px] text-[#999fad] relative top-[2px] font-semibold'>.09</span>
 
        </div>
-
+       
        <div>
           <div className='text-blue-500 text-[11px] border-l-[1px] px-[20px] h-[25px] border-[#343438] flex items-center'>+ Add balance</div>
        </div>
