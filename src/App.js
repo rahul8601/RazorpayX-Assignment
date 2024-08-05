@@ -1,30 +1,35 @@
+
 import './App.css';
 import MainContent from './components/mainContent/MainContent';
+import PageNotFound from './components/PageNotFound';
 import MainContent2 from './components/secondPage/mainContent/MainContent2';
-import SideMenu from './components/sidemenu/SideMenu';
+import Sidebar from './components/sideBar/Sidebar';
+import  { BrowserRouter, Route, Routes } from "react-router-dom"
 import Wrapper from './components/Wrapper';
 
 
 function App() {
+
   return (
     <>
-      {/* First Page  */}
+   
+      <BrowserRouter>
+     
       <Wrapper>
-       <SideMenu/>
-       <MainContent/>
-      </Wrapper>
+      <Sidebar/>
 
-       
-      {/* Divider */}
-      <div className='h-[20px] w-full bg-white'>
-      </div>
-
-      {/* Second Page */}
-      <Wrapper>
-       <SideMenu/>
-       <MainContent2/>
+      <Routes>
+       <Route path='/' element={<MainContent/>}/>
+       <Route path='/Home' element={<MainContent/>}/>
+       <Route path='/Payouts' element={<MainContent2/>}/>
+       <Route path='*' element={<PageNotFound/>}/>
+      </Routes>
       </Wrapper>
+      </BrowserRouter>
+
     </>
+
+
   );
 }
 

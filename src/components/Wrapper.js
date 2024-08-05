@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 const Wrapper = ({children}) => {
   return (
-    <div className='flex flex-row h-screen' >
-    {children}
+    <div className='grid grid-cols-[218px_1fr] h-screen  bg-[#0A0F13]'>
+       {children}
     </div>
   )
 }

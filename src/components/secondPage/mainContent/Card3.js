@@ -6,7 +6,7 @@ const Card3 = () => {
     
 
 
-       <div className='border-t-[2px] border-green-700  flex items-start p-[10px] h-[100px] bg-[#222831]'>
+       <div className='border-t-[2px] border-green-700  flex items-start p-[10px] h-[100px] bg-[#171D26]'>
          <div className='px-[5px]  w-[180px]'>
          <p className='text-white text-[15px] font-semibold'>Amazon Instant</p>
          <p className='text-white text-[15px] font-semibold'>Settlements</p>
@@ -34,7 +34,7 @@ const Card3 = () => {
 
 
 
-       <div className='border-t-[2px] border-green-700  flex items-start py-[7px] px-[10px] h-[100px] bg-[#222831]'>
+       <div className='border-t-[2px] border-green-700  flex items-start py-[7px] px-[10px] h-[100px] bg-[#171D26]'>
          <div className='px-[5px] w-[180px]'>
             <p className='text-white text-[15px] font-semibold'>Creating payouts</p>
             <p className='text-white text-[15px] font-semibold'>in Live mode</p>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
-import Bank2 from '../../../icons/bank2.png'
+import BankIcon from '../../../icons/bank-icon.png'
 
 
 const Card2 = () => {
@@ -9,9 +9,9 @@ const Card2 = () => {
 
         <p className='text-[12px] text-white mb-[3px] font-medium' >Onboarding updates <span className='text-[12px] text-[#999fad]'>(1)</span></p>
 
-        <div className='w-full h-[120px] flex items-center bg-[#222831] rounded'>
-            <div className='w-[135px] h-[100%]  rounded-s-lg bg-gradient-to-r from-blue-900'>
-                <img src={Bank2} className='h-full w-full p-[16px] '/>
+        <div className='w-full h-[120px] flex items-center bg-[#171D26] rounded'>
+            <div className='w-[120px] h-[100%]  rounded-s-lg bg-gradient-to-r from-blue-900'>
+                <img src={BankIcon} className='h-full w-full bg-cover '/>
             </div>
             <div className='p-[10px] py-[16px]'> 
                 <p className='text-white text-[15px] font-semibold'> Open your RazorpayX account.</p>

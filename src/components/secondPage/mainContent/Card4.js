@@ -7,9 +7,9 @@ import { TbBackslash } from "react-icons/tb";
 
 const Card4 = () => {
   return (
-    <div className='w-full mt-[18px] h-[68px] bg-[#222831] rounded border-[1px] border-blue-800 flex items-center justify-between relative'>
+    <div className='w-full mt-[18px] h-[68px] bg-[#171D26] rounded border-[1px] border-blue-800 flex items-center justify-between relative'>
 
-        <div className='w-[28%] h-[66px] bg-gradient-to-r from-purple-900 via-blue-900 to-[#222831] '>
+        <div className='w-[28%] h-[66px] bg-gradient-to-r from-purple-900 via-blue-900 to-[#171D26] '>
             <img src={AccountingPng} className='w-[60px]  ml-[16px]'/>
         </div>
 
